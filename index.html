@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Sign Up - SpaY.co</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body onload="playBackground()">
+    <video muted loop id="background">
+        <source src="./media/background2.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <h3>SignUp Here</h3>
+        <form action="GET">
+            <div class="input-container">
+                <p>Username:</p>
+                <div class="input-field">
+                    <div class="input">
+                        <input type="text" name="username" id="username" minlength="6" required>
+                    </div>
+
+                    <div class="tip" data-content="Enter Your Username Here">?</div>
+                </div>
+            </div>
+            <div class="input-container">
+                <p>Password:</p>
+                <div class="input-field">
+                    <div class="input">
+                        <input type="password" name="password" id="password" minlength="8" required>
+                    </div>
+                    <div class="tip" data-content="Enter Your Password Here">?</div>
+                </div>
+            </div>
+            <div class="input-field">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        const background = document.getElementById('background');
+
+        function playBackground() {
+            background.play();
+        }
+    </script>
+</body>
+
+</html>
