@@ -17,7 +17,7 @@
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  filter: blur(5px);
+  filter: blur(2px);
 }
 
 body {
@@ -25,7 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgb(21, 22, 22);
 }
 
@@ -73,6 +73,8 @@ h3 {
   justify-content: center;
   flex-direction: column;
   position: relative;
+  min-height: 400px;
+  min-width: 300px;
 }
 
 button {
