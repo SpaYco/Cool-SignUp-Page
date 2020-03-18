@@ -99,7 +99,7 @@ input {
   height: 100%;
   border: none;
   font-size: 25px;
-  color: rgba(255, 255, 255, 0);
+  color: rgb(95, 39, 205);
   text-align: center;
   transition: 700ms;
 }
