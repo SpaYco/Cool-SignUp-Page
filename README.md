@@ -2,7 +2,7 @@
 
 > A SignUp Page.
 
-![screenshot](./demo.jpeg)
+![screenshot](./screenshot.png)
 
 This Is A SignUp Page I randomly made for fun.
 
